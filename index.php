@@ -27,24 +27,25 @@ $no = 1;
             $sql_select = "SELECT * FROM dbo.resep";
             $stmt = $conn->query($sql_select);
             $reseps = $stmt->fetchAll(); 
-			
             if(count($reseps) > 0) {
-				
                 echo "<h2>Resep Masakan Indonesia</h2>";
-				echo "<a href='tambah.php'>Tambah Resep</a>";
+		echo "<a href='tambah.php'>Tambah Resep</a>";
                 echo "<table border='1'>";
-				echo "<tr><th>No.</th>";
+	        echo "<tr><th>No.</th>";
                 echo "<th>Nama</th>";
-                echo "<th>Resep</th></tr>";
+                echo "<th>Resep</th>";
+		echo "<th>Tanggal Input</th></tr>";
                 foreach($reseps as $resep) {
-					echo "<tr><td>".$no."</td>";
+		    echo "<tr><td>".$no."</td>";
                     echo "<td>".$resep['nm_resep']."</td>";
-                    echo "<td>".$resep['isi_resep']."</td></tr>";
-			$no = $no+1;
+                    echo "<td>".$resep['isi_resep']."</td>";
+		    echo "<td>".$resep['create_date']."</td></tr>";
+		    $no = $no+1;
                 }
-				
                 echo "</table>";
             } else {
+		echo "<h2>Resep Masakan Indonesia</h2>";
+		echo "<a href='tambah.php'>Tambah Resep</a>";
                 echo "<h3>Tidak ada resep masakan.</h3>";
             }
         } catch(Exception $e) {
