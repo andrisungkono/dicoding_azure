@@ -18,6 +18,6 @@
             echo "Failed: " . $e;
         }
 
-        //echo "<meta http-equiv='refresh' content='0; url=https://sub01.azurewebsites.net'>";
+       echo "<meta http-equiv='refresh' content='0; url=https://sub01.azurewebsites.net'>";
     } 
  ?>
