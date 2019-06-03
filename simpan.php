@@ -6,7 +6,7 @@
             $nm_resep = $_POST['nm_resep'];
             $isi_resep = $_POST['isi_resep'];
 			$id_resep = uniqid();
-			$create_date = date("Y-m-d");
+			$create_date = date("Y-m-d H:i:s");
             // Insert data
             $sql_insert = "INSERT INTO dbo.resep (id_resep, nm_resep, isi_resep, create_date) 
                         VALUES (?,?,?,?)";
