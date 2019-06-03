@@ -40,8 +40,9 @@ $no = 1;
 					echo "<tr><td>".$no."</td>";
                     echo "<td>".$resep['nm_resep']."</td>";
                     echo "<td>".$resep['isi_resep']."</td></tr>";
+			$no = $no+1;
                 }
-				$no = $no+1;
+				
                 echo "</table>";
             } else {
                 echo "<h3>Tidak ada resep masakan.</h3>";
