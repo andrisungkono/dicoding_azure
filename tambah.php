@@ -7,8 +7,9 @@
 
 <body>
  <form method="post" action="simpan.php" enctype="multipart/form-data" >
-       Nama Resep  <input type="text" name="name" id="name"/></br></br>
-       Isi Resep <input type="text" name="job" id="job"/></br></br>
+       Nama Resep  <input type="text" name="nm_resep" id="nm_resep"/></br></br>
+       
+       Isi Resep <textarea name="isi_resep" id="isi_resep"> </textarea></br></br>
        <input type="submit" name="submit" value="Submit" />
        <input type="submit" name="load_data" value="Load Data" />
  </form>
