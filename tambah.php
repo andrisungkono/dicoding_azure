@@ -16,6 +16,9 @@
 </head>
 
 <body>
+ <?php
+ echo "<h2>Resep Masakan Indonesia</h2>";
+ ?>
  <form method="post" action="simpan.php" enctype="multipart/form-data" >
        Nama Resep  <input type="text" name="nm_resep" id="nm_resep" required="required"/></br></br>
        
