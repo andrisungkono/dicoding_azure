@@ -13,7 +13,7 @@ $no = 0;
 			
             $sql_select = "SELECT * FROM dbo.resep";
             $stmt = $conn->query($sql_select);
-            $registrants = $stmt->fetchAll(); 
+            $reseps = $stmt->fetchAll(); 
 			
             if(count($reseps) > 0) {
 				
