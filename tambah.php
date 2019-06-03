@@ -24,7 +24,7 @@
        
        Isi Resep <textarea rows="4" cols="50" name="isi_resep" id="isi_resep" required="required">Isi resep</textarea></br></br>
        <input type="submit" name="submit" value="Submit" />
-       <input type="submit" name="load_data" value="Load Data" />
+       
  </form>
 </body>
 </html>
