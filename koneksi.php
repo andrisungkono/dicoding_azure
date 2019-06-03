@@ -1,5 +1,5 @@
 <?php
-    $host = "dicodingsubmissonsqlserv.database.windows.net";
+    $host = "dicodingsubmissonsqlserv.database.windows.net,1433";
     $user = "yangpunyaserver";
     $pass = "p4w0n_m4g3n4";
     $db = "db_resep";
