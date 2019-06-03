@@ -14,7 +14,7 @@
  	h3 { font-size: 1.2em; }
  	table { margin-top: 0.75em; }
  	th { font-size: 1.2em; text-align: left; border: 1; padding-left: 0; }
- 	td { padding: 0.25em 2em 0.25em 0em; border: 0 none; }
+ 	td { padding: 0.25em 2em 0.25em 0em; border: 1 none; }
  </style>
 </head>
 
