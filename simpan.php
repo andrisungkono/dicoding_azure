@@ -5,7 +5,7 @@
         try {
             $nm_resep = $_POST['nm_resep'];
             $isi_resep = $_POST['isi_resep'];
-			$id_resep = uniqid();
+	    $id_resep = uniqid();
             // Insert data
             $sql_insert = "INSERT INTO dbo.resep (id_resep, nm_resep, isi_resep) 
                         VALUES (?,?,?)";
@@ -18,6 +18,6 @@
             echo "Failed: " . $e;
         }
 
-        echo "<meta http-equiv='refresh' content='0; url=https://sub01.azurewebsites.net'>";
+        //echo "<meta http-equiv='refresh' content='0; url=https://sub01.azurewebsites.net'>";
     } 
  ?>
