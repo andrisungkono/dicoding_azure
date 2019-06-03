@@ -17,10 +17,10 @@
 
 <body>
  <?php
- echo "<h2>Resep Masakan Indonesia</h2>";
+ echo "<h2>Tambah Resep Masakan Indonesia</h2>";
  ?>
  <form method="post" action="simpan.php" enctype="multipart/form-data" >
-       Nama Resep  <input type="text" name="nm_resep" id="nm_resep" required="required"/></br></br>
+       Nama Resep  <input type="text" size="100" name="nm_resep" id="nm_resep" required="required"/></br></br>
        
        Isi Resep <textarea rows="4" cols="50" name="isi_resep" id="isi_resep" required="required">Isi resep</textarea></br></br>
        <input type="submit" name="submit" value="Submit" />
