@@ -8,7 +8,7 @@
 <body>
 <?php
 include "koneksi.php";
-$no = 0;
+$no = 1;
         try {
 			
             $sql_select = "SELECT * FROM dbo.resep";
